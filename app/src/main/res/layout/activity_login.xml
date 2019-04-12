@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg01"
+    tools:context=".LoginActivity">
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="180dp"
+        android:drawableLeft="@drawable/username"
+        android:hint="@string/username"/>
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/password"/>
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/panelwhite"
+        android:text="@string/login"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/no_account_yet"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/registered"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/button_link"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/panelwhite"
+        android:text="Kunjungi Link instagram kami"/>
+</LinearLayout>
